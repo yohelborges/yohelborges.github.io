@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title><Encriptador></title>
+</head>
+<body>
+    <header>
+    <img src="imagenes/Vector (1).png" alt="Logo Alura" class="logo">
+    </header>
+    <main>
+        <section>
+            <textarea class="textarea" cols="50" rows="10" placeholder="ingrese aqui el texto a encriptar o desencriptar."requeried></textarea>
+            <div>
+                <h6 class="informacion">&#8981; Solo letras minusculas y sin acentos.</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="botonencriptar()">&#128274Encriptar</button>
+                <button class="btn-desencriptar" onclick="botondesencriptar()">&#128275Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea id="contenido" class="mensaje" cols="30" rows="10"></textarea>
+            <div>
+                <button class="copiars" onclick="copiar()">Copiar</button>
+               
+                <button class="btnpaste" onclick="pegar()">pegar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a href="#" rel="noopener nofollow" target="_blank"> <img src="imagenes/linkedin azul.png" alt="LogoLInkind" class="linkedin"></a>
+        <a href="#" rel="noopener nofollow" target="_blank" ><img src="imagenes/github logo.png" alt="LogoGithub" class="gato"></a>
+        <p class="Copyright">&copy Copyright Yohel Borges - 2023</p>
+        </footer>
+    <script src="script.js">
+    </script>
+</body>
+</html>
